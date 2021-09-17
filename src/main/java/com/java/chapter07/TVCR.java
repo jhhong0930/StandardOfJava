@@ -1,13 +1,13 @@
 package com.java.chapter07;
 
-class Tv {
+/*class Tv {
     boolean power;
     int channel;
 
     void power() {power = !power;}
     void channelUp() {++channel;}
     void channelDown() {--channel;}
-}
+}*/
 
 class VCR {
     boolean power;

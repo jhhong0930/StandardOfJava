@@ -11,7 +11,7 @@ class Product {
     }
 }
 
-class Tv extends Product {
+/*class Tv extends Product {
     Tv() {
         // 조상클래스의 생성자 Product(int price)를 호출
         super(100);
@@ -19,7 +19,7 @@ class Tv extends Product {
 
     // Object 클래스의 toString()을 오버라이딩
     public String toString() {return "Tv";}
-}
+}*/
 
 class Computer extends Product {
     Computer() {super(200);}
@@ -47,7 +47,7 @@ class PolyArgumentTest {
     public static void main(String[] args) {
         Buyer b = new Buyer();
 
-        b.buy(new Tv());
+//        b.buy(new Tv());
         b.buy(new Computer());
 
         System.out.println("현재 남은 돈은 " + b.money + "만원입니다.");
